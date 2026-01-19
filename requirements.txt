@@ -1,0 +1,5 @@
+ipykernel
+jupyterlab
+lbmpy
+matplotlib
+numpy
