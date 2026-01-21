@@ -1,0 +1,53 @@
+# LBM Simulation Configuration
+
+# Domain parameters
+domain:
+  nx: 400  # Lattice points in x-direction
+  ny: 100  # Lattice points in y-direction
+
+# Physical parameters
+physics:
+  reynolds_numbers: [100, 500, 1000, 2000]  # List of Re to test
+  u_max: 0.03 # Maximum velocity in lattice units (keep < 0.3 for stability)
+  
+# Simulation control
+simulation:
+  max_iterations: 20000  # Maximum number of iterations
+  checkpoint_interval: 500  # Save data every N iterations
+  convergence_tolerance: 1.0e-6  # Tolerance for steady-state detection
+  
+# Geometry parameters
+geometry:
+  # For simple validation (cylinder)
+  cylinder:
+    radius: 8  # Cylinder radius
+    center_x: 80  # X position of cylinder center
+    center_y: 50  # Y position (usually ny/2)
+    
+  # For F1 wing proxy
+  wing:
+    chord: 50  # Wing chord length
+    ride_height: 15  # Distance from ground
+    thickness_ratio: 0.15  # Thickness as fraction of chord
+    angle_of_attack: 5.0  # Degrees
+    x_position: 100  # X position of leading edge
+
+# Boundary conditions
+boundaries:
+  bottom_type: 'slip'  # 'slip' or 'no_slip'
+  inlet_type: 'velocity'  # 'velocity' or 'periodic'
+  outlet_type: 'pressure'  # 'pressure' or 'periodic'
+
+# Output settings
+output:
+  save_velocity: true
+  save_vorticity: true
+  save_density: false
+  output_dir: '../data/'
+  visualization_dir: '../visualizations/'
+  
+# Validation settings
+validation:
+  run_poiseuille: true
+  run_cylinder: true
+  poiseuille_sample_x: 200  # X location to sample velocity profile
