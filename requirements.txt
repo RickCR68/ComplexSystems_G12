@@ -1,12 +1,13 @@
-numpy>=1.21.0,<2.0
-scipy>=1.7.0
-matplotlib>=3.4.0
-ipykernel>=6.0
-jupyterlab>=3.0
-pytest>=6.2
-pytest-cov>=2.12
-lbmpy>=0.3.0
-
-# Optional but recommended for production
-# numba>=0.55.0  # JIT compilation for hotloops
-# h5py>=3.0  # Efficient snapshot storage to HDF5
+numpy
+scipy
+matplotlib
+numba
+h5py
+pandas
+imageio
+imageio-ffmpeg
+lbmpy
+ipykernel
+jupyterlab
+pytest
+pytest-cov

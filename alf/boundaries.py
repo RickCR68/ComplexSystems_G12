@@ -25,6 +25,16 @@ class TunnelBoundaries:
         wing_shape = (x > x_pos) & (x < x_pos + length) & (y > height) & (y < height + (x - x_pos) * slope)
         self.mask |= wing_shape # Combine with existing mask
 
+    def add_reverse_triangle(self, x_pos=50, height=5, length=30, slope=0.5):
+        """
+        Creates a triangular proxy for the F1 wing.
+        Located near the ground to trigger Ground Effect.
+        """
+        y, x = np.ogrid[:self.ny, :self.nx]
+        # Triangle shape logic: (x > 50) and (x < 80) and (y > slope)
+        wing_shape = (x > x_pos) & (x < x_pos + length) & (y > height) & (y < height + (length - (x - x_pos)) * slope)
+        self.mask |= wing_shape # Combine with existing mask
+
     def add_rectangular_obstacle(self, x_start, y_start, length, height):
         """
         Adds a square obstacle to the tunnel.
