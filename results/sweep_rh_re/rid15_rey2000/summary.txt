@@ -1,0 +1,22 @@
+==================================================
+Simulation Results: rid15_rey2000
+==================================================
+Geometry: f1_wing_simple
+Reynolds: 2000
+Ride Height: 15
+
+--- Aerodynamic Forces ---
+Mean Drag:      -0.819534 (Cd = -20.4884)
+Mean Lift:      -0.079350 (Cl = -1.9838)
+Downforce:       0.079350
+Std Drag:        0.345022
+Std Lift:        0.130171
+
+--- Convergence ---
+Converged:     No
+Final Step:    4000
+
+--- Performance ---
+Wall Time:     106.7 s
+Speed:         37.5 steps/s
+==================================================

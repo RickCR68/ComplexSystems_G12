@@ -1,0 +1,22 @@
+==================================================
+Simulation Results: rid5_rey500
+==================================================
+Geometry: f1_wing_simple
+Reynolds: 500
+Ride Height: 5
+
+--- Aerodynamic Forces ---
+Mean Drag:      -0.429529 (Cd = -10.7382)
+Mean Lift:      -0.152643 (Cl = -3.8161)
+Downforce:       0.152643
+Std Drag:        0.394423
+Std Lift:        0.046597
+
+--- Convergence ---
+Converged:     No
+Final Step:    4000
+
+--- Performance ---
+Wall Time:     117.1 s
+Speed:         34.2 steps/s
+==================================================

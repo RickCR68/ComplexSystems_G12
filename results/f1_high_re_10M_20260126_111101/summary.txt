@@ -1,0 +1,22 @@
+==================================================
+Simulation Results: f1_high_re_10M
+==================================================
+Geometry: f1_car_full
+Reynolds: 10000000
+Ride Height: 8
+
+--- Aerodynamic Forces ---
+Mean Drag:      -1.462713 (Cd = -14.7451)
+Mean Lift:       0.293101 (Cl = 2.9546)
+LIFT:            0.293101
+Std Drag:        1.731301
+Std Lift:        0.446917
+
+--- Convergence ---
+Converged:     No
+Final Step:    8000
+
+--- Performance ---
+Wall Time:     318.3 s
+Speed:         25.1 steps/s
+==================================================
