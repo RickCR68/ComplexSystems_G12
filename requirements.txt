@@ -2,3 +2,5 @@ ipykernel
 jupyterlab
 matplotlib
 numpy
+pandas
+scipy
