@@ -5,7 +5,6 @@ def compute_energy_spectrum(u, u_field, v_field):
     """
     Calculates the Energy Spectrum E(k) from the velocity field
     using a 2D Fourier Transform.
-    Matches Figure 5 in the Dapena-García preprint.
     """
     nx, ny = u_field.shape
     
