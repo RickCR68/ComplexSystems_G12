@@ -1,13 +1,4 @@
-numpy
-scipy
-matplotlib
-numba
-h5py
-pandas
-imageio
-imageio-ffmpeg
-lbmpy
 ipykernel
 jupyterlab
-pytest
-pytest-cov
+matplotlib
+numpy
