@@ -1,0 +1,22 @@
+{
+  "nx": 400,
+  "ny": 100,
+  "reynolds": 10000,
+  "u_inlet": 0.1,
+  "ride_height": 5,
+  "wing_x_pos": 50,
+  "wing_length": 30,
+  "wing_slope": 0.5,
+  "wing_type": "triangle",
+  "ground_type": "no_slip",
+  "total_steps": 10000,
+  "monitor_interval": 100,
+  "dashboard_interval": 500,
+  "cs_smag": 0.15,
+  "save_flow_field": true,
+  "save_force_history": true,
+  "save_dashboard": false,
+  "output_dir": "results/single_runs",
+  "experiment_name": "f1_turbulence",
+  "run_id": "my_experiment"
+}

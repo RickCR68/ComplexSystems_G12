@@ -1,0 +1,22 @@
+==================================================
+Simulation Results: rid3_rey1000
+==================================================
+Geometry: f1_wing_simple
+Reynolds: 1000
+Ride Height: 3
+
+--- Aerodynamic Forces ---
+Mean Drag:      -0.316514 (Cd = -7.9129)
+Mean Lift:      -0.156006 (Cl = -3.9002)
+Downforce:       0.156006
+Std Drag:        0.429772
+Std Lift:        0.070400
+
+--- Convergence ---
+Converged:     No
+Final Step:    4000
+
+--- Performance ---
+Wall Time:     101.5 s
+Speed:         39.4 steps/s
+==================================================
