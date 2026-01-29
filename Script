@@ -10,7 +10,7 @@ chaotic, we needed a specific, extreme case study. That’s why we chose to focu
 Ground Effect phenomena in F1 cars. 
 
 In F1, air isn't just flowing over the car; it's being squeezed between the car and the track. 
-This creates a high-pressure environment that is incredibly sensitive to changes—making it 
+This creates a high-suction environment that is incredibly sensitive to changes—making it 
 the perfect laboratory for our complexity analysis."
 
 
@@ -51,5 +51,6 @@ happen in open air.
 
 So, did our model support these predictions? I will now hand over to Ricardo to explain the Methods 
 we used to find out."
+
 
 
