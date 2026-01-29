@@ -35,20 +35,21 @@ a key part of our analysis."
 
 "Moving to our specific research focus: Ground Effect.
 
-Physically, as an F1 car drops closer to the track—reducing its 'Ride Height'—the air underneath 
-accelerates. This is the Venturi effect. We asked ourselves: At what point does this accelerated 
-flow break down? 
+Physically, as the car drops closer to the track, the air underneath accelerates due to the Venturi 
+effect. Our goal was to pinpoint exactly when this accelerated flow breaks down.
 
-Our research was driven by two main hypotheses:
+To do this, we focused on two key variables.
 
-First, regarding the Reynolds Number: We hypothesized that as velocity increases, the flow 
-field won't just get messy gradually. Instead, it will undergo a subcritical bifurcation. 
-This means we expect a sudden, sharp jump from laminar to turbulent flow. 
+First, we looked at Velocity. The big question here is how the flow transitions as speed increases. 
+Our hypothesis is that it won't be a gradual degradation. Instead, we predict a subcritical bifurcation. 
+This means we expect the flow to snap from smooth to turbulent in a sudden, sharp jump, rather than 
+getting messy little by little.
 
-Second, regarding the Ground: We asked, 'Does the track make a difference?' Our hypothesis is 
-that the presence of the ground wall fundamentally changes the type of phase transition compared 
-to open air. 
+Second, we looked at Ride Height. Here, we asked if the proximity of the track changes the physics. Our 
+hypothesis is that the ground acts as a critical constraint, creating a specific 'tipping point'. We predict 
+that below a certain height, the flow structure will undergo a fundamental phase transition that wouldn't 
+happen in open air.
 
-So, did our model support these hypotheses? I will now hand over to [Teammate's Name] to explain 
-the Methods we used to find out."
+So, did our model support these predictions? I will now hand over to Ricardo to explain the Methods 
+we used to find out."
 
