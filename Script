@@ -28,8 +28,7 @@ predicting energy moves from big eddies to small ones, following a -5/3 power la
 
 However, our simulation uses the D2Q9 model, which is effectively 2D. So, we contrasted Kolmogorov 
 with Kraichnan’s 1967 theory. Kraichnan argues that in 2D, energy can actually cascade inversely—from 
-small scales up to large structures. Checking which law our data follows—Kolmogorov or Kraichnan—was 
-a key part of our analysis."
+small scales up to large structures."
 
 **[1:45 - 2:45] Part 3: Ground Effect Hypotheses**
 
@@ -52,4 +51,5 @@ happen in open air.
 
 So, did our model support these predictions? I will now hand over to Ricardo to explain the Methods 
 we used to find out."
+
 
