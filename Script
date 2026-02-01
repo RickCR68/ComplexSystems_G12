@@ -1,0 +1,57 @@
+## INTRO(1-3)：
+
+**[0:00 - 0:45] Part 1: Opening & Context**
+
+"Good morning everyone, we are Group 12. The aim of our project is to examine a 
+fascinating but difficult problem: the emergence of complex phenomena in turbulent flows. 
+
+Turbulence is everywhere, but to really study how a flow system 'breaks' from smooth to 
+chaotic, we needed a specific, extreme case study. That’s why we chose to focus on the 
+Ground Effect phenomena in F1 cars. 
+
+In F1, air isn't just flowing over the car; it's being squeezed between the car and the track. 
+This creates a powerful suction effect that is incredibly sensitive to changes—making it 
+the perfect laboratory for our complexity analysis."
+
+
+**[0:45 - 1:45] Part 2: Literature & Theory**
+
+"To make our analysis rigorous, we anchored our research in three specific pieces of literature. 
+
+First, to understand how the flow breaks, we looked at Yves Pomeau’s work on parallel flows. His 
+theory of Subcritical Bifurcation is crucial for us. It predicts that our flow won't degrade 
+gradually. Instead, Pomeau suggests we should see a sudden 'snap' into turbulence, where localized 
+chaotic spots grow rapidly.
+
+Second, to measure energy, we used Kolmogorov’s 1941 theory. This is the standard for 3D turbulence, 
+predicting energy moves from big eddies to small ones, following a -5/3 power law.
+
+However, our simulation uses the D2Q9 model, which is effectively 2D. So, we contrasted Kolmogorov 
+with Kraichnan’s 1967 theory. Kraichnan argues that in 2D, energy can actually cascade inversely—from 
+small scales up to large structures."
+
+**[1:45 - 2:45] Part 3: Ground Effect Hypotheses**
+
+"Moving to our specific research focus: Ground Effect.
+
+Physically, as the car drops closer to the track, the air underneath accelerates due to the Venturi 
+effect. Our goal was to pinpoint exactly when this accelerated flow breaks down.
+
+To do this, we focused on two key variables.
+
+First, we looked at Velocity. The big question here is how the flow transitions as speed increases. 
+Our hypothesis is that it won't be a gradual degradation. Instead, we predict a subcritical bifurcation. 
+This means we expect the flow to snap from smooth to turbulent in a sudden, sharp jump, rather than 
+getting messy little by little.
+
+Second, we looked at Ride Height. Here, we asked if the proximity of the track changes the physics. Our 
+hypothesis is that the ground acts as a critical constraint, creating a specific 'tipping point'. We predict 
+that below a certain height, the flow structure will undergo a fundamental phase transition that wouldn't 
+happen in open air.
+
+So, did our model support these predictions? I will now hand over to Ricardo to explain the Methods 
+we used to find out."
+
+
+
+
