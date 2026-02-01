@@ -2,6 +2,9 @@
 
 A Lattice Boltzmann Method (LBM) simulation of fluid dynamics focusing on F1 car's Ground effects and the resulting turbulence, for complexity analysis.
 
+> [!IMPORTANT]
+> Testing was done mostly manually with images and animations, as some numerical instability/wrong behaviour was easier to identify through visual aid than most numerical results
+
 ## Overview
 
 This project implements a D2Q9 Lattice Boltzmann solver with:
