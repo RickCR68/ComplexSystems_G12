@@ -1,5 +1,6 @@
 ipykernel
 jupyterlab
-lbmpy
 matplotlib
 numpy
+pandas
+scipy
